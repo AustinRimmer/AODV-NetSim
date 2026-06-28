@@ -1,0 +1,74 @@
+{
+  "Time to First Node Death": {
+    "hop_mean": 249.76,
+    "hop_std": 34.94009881283259,
+    "ea_mean": 296.16,
+    "ea_std": 20.987596144370418,
+    "test": "Wilcoxon signed-rank",
+    "statistic": 0.0,
+    "p_value": 1.772373318253141e-17,
+    "cohens_d": 1.5516202546174804,
+    "sig": 1,
+    "normal": 0
+  },
+  "Time to 30 % Node Loss": {
+    "hop_mean": 487.6,
+    "hop_std": 41.43292010813224,
+    "ea_mean": 551.73,
+    "ea_std": 33.22280310968125,
+    "test": "paired t-test",
+    "statistic": 13.937601944676967,
+    "p_value": 4.420405736949566e-25,
+    "cohens_d": 1.3937601944676665,
+    "sig": 1,
+    "normal": 1
+  },
+  "Time to Disconnection": {
+    "hop_mean": 777.11,
+    "hop_std": 113.63079457060694,
+    "ea_mean": 784.39,
+    "ea_std": 74.57704239593612,
+    "test": "paired t-test",
+    "statistic": 0.5792582612430993,
+    "p_value": 0.5637306764763493,
+    "cohens_d": 0.057925826124309465,
+    "sig": 0,
+    "normal": 1
+  },
+  "Packet Delivery Ratio": {
+    "hop_mean": 0.7793128925103471,
+    "hop_std": 0.049745017367301,
+    "ea_mean": 0.7914302360223686,
+    "ea_std": 0.05450808369229148,
+    "test": "Wilcoxon signed-rank",
+    "statistic": 2130.0,
+    "p_value": 0.17441979998997503,
+    "cohens_d": 0.1805993460632637,
+    "sig": 0,
+    "normal": 0
+  },
+  "Average Path Length (hops)": {
+    "hop_mean": 2.0260041806612152,
+    "hop_std": 0.1476324488413883,
+    "ea_mean": 2.058851382147188,
+    "ea_std": 0.1416563925389059,
+    "test": "Wilcoxon signed-rank",
+    "statistic": 1916.0,
+    "p_value": 0.0362653406125505,
+    "cohens_d": 0.20143067578873927,
+    "sig": 1,
+    "normal": 0
+  },
+  "Energy Variance": {
+    "hop_mean": 254.37065003573895,
+    "hop_std": 178.59911216486492,
+    "ea_mean": 82.4799288314581,
+    "ea_std": 116.23512723709939,
+    "test": "paired t-test",
+    "statistic": -8.23916605221436,
+    "p_value": 7.357307668005063e-13,
+    "cohens_d": -0.8239166052214322,
+    "sig": 1,
+    "normal": 1
+  }
+}
